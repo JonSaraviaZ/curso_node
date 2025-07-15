@@ -10,8 +10,8 @@
 //Patrón de diseño módulo
 //Separa el código en diferentes ficheros
 //Se va a poder importar y exportar para que ese código se reutilice.
-
-const sum = require('./suma.js'); // Importa el módulo suma.js
+//CommonJS require module
+const {sum} = require('./suma.js'); // Importa el módulo suma.js
 
 console.log(sum(1, 2)); // Llama a la función sum del módulo suma.js y muestra el resultado en la consola
 
